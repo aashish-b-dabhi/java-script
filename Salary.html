@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        let salary = parseInt(prompt("Enter Your Salary"))
+        console.log("Salary =",salary);
+
+        let HRA =  parseInt(prompt("Enter Your HRA"))
+        console.log("HRA =",HRA);
+
+        let DA =  parseInt(prompt("Enter Your DA"))
+        console.log("DA =",DA);
+
+        let TA =  parseInt(prompt("Enter Your TA"))
+        console.log("TA =",TA);
+
+        let GS = salary + (100 * HRA / 100) + (100 * DA / 100) + (100 * TA / 100)
+
+        console.log("salary =", GS);
+
+    </script>
+</body>
+</html>
